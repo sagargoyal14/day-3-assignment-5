@@ -93,3 +93,35 @@
     background: url(external-link-52.png) no-repeat 100% 0;
     background-size: 15px 15px;
   }
+
+  /* Nav Styles */
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav li{
+    list-style: none;
+    border: solid rgb(255, 117, 5);
+    margin: 2rem; 
+  }
+
+  nav li a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    padding: 1rem 3rem;
+    text-align: center;
+  }
+
+  nav li a:hover, nav li a:focus{
+    background-color:rgb(255, 117, 5);
+    color: white;
+    font-weight: bold;
+  }
+
+  nav li a:active {
+    transform: scale(130%);
+  }
