@@ -73,3 +73,23 @@
   section h2 + p{
     text-indent: 2rem;
   }
+
+  /* Link Styles */
+
+  a {
+    outline: none;
+  }
+
+  a:focus, a:hover {
+    text-decoration: none;
+  }
+
+  a:link, a:visited {
+    color: rgb(255, 115, 0)
+  }
+  
+  a[href*="http"] {
+    padding-right: 1.9rem;
+    background: url(external-link-52.png) no-repeat 100% 0;
+    background-size: 15px 15px;
+  }
